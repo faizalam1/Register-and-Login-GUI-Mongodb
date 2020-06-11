@@ -92,5 +92,5 @@ class Login_app():
         window.geometry("150x100")
         tkinter.Label(window, text=text).pack()
         tkinter.Button(window, text="OK", command=window.destroy).pack()
-
-Login_app()
+if __name__ == "__main__":
+    Login_app()
